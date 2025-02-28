@@ -17,7 +17,7 @@
 @define-color base_color #ffffff; 
 @define-color text_color #000000; /* Windows Theme: windowtext (any white area text)*/
 @define-color text_color_light #808080;
-@define-color selected_bg_color #000080; /* Windows Theme: hilight */
+@define-color selected_bg_color #000000; /* Windows Theme: hilight */
 @define-color selected_fg_color #ffffff; /* Windows Theme: hilighttext */
 @define-color selected_inactive_bg_color #808080; 
 @define-color selected_inactive_fg_color #000000; 

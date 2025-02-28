@@ -15,14 +15,14 @@
 @define-color panel_fg_color #000000;
 @define-color panel_fg_color_bright #ffffff;
 @define-color base_color #ffffff; 
-@define-color text_color #000000; /* Windows Theme: windowtext (any white area text)*/
+@define-color text_color #ffffff; /* Windows Theme: windowtext (any white area text)*/
 @define-color text_color_light #808080;
 @define-color selected_bg_color #000000; /* Windows Theme: hilight */
 @define-color selected_fg_color #ffffff; /* Windows Theme: hilighttext */
 @define-color selected_inactive_bg_color #808080; 
 @define-color selected_inactive_fg_color #000000; 
 @define-color tooltip_bg_color #ffffe1; /* Windows Theme: infowindow, Tooltip background color */ 
-@define-color tooltip_bg_shade #494940; /* Windows Theme: infotext, sometimes text hinting? */
+@define-color tooltip_bg_shade #000000; /* Windows Theme: infotext, sometimes text hinting? */
 @define-color tooltip_fg_color #000000; /* Windows Theme: infotext */
 @define-color bg_bright shade(white, 0.99); /* Windows Theme: window, White inner window/text areas */
 @define-color bg_shade shade(@bg_color, 0.66); 
@@ -47,7 +47,7 @@
 @define-color scrollbar_trough_bg_color #ffffff; /* Window theme: scrollbar, also controls task bar background color, per windows 95 themes */
 @define-color scrollbar_bg_color @button_bg_color; /* Window theme: (scrollbar) buttonface */
 @define-color scrollbar_solid_color @bg_color; /* Window Theme: Scrollbar, this is only if you want the scrollbar trough solid color */
-@define-color window_title_bg_color @selected_bg_color; /* Windows Theme: activetitle */
+@define-color window_title_bg_color #000000; /* Windows Theme: activetitle */
 @define-color window_title_text_color @selected_fg_color;  /* Windows Theme: titletext */
 @define-color inactive_title_bg_color #808080; /* Windows Theme: inactivetitle */
 @define-color inactive_title_text_color #c0c0c0; /* Windows Theme: inactivetitletext */
